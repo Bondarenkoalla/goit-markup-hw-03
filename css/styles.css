@@ -17,6 +17,9 @@ a {
 body {
   font-family: Roboto, sans-serif;
 }
+img {
+  display: block;
+}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -101,6 +104,8 @@ header {
 .decision {
   background-color: var(--background-color);
   text-align: center;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 .decision-header {
   color: var(--white-color);
@@ -109,6 +114,7 @@ header {
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0;
 }
 .order-link {
   display: inline-block;
@@ -130,7 +136,6 @@ header {
 
 .qualities-list {
   display: flex;
-  padding-left: 0;
 }
 .qualities-list .item {
   width: 270px;
@@ -194,7 +199,8 @@ header {
   display: block;
 }
 .member-list .item {
-  padding-bottom: 30px;
+  width: 270px;
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -208,7 +214,7 @@ header {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -224,6 +230,9 @@ header {
 }
 .our-team .item {
   background-color: var(--white-color);
+}
+.our-team .description {
+  padding: 30px 68px;
 }
 /* footer */
 footer {
@@ -244,7 +253,8 @@ footer .studio {
 }
 .address .item:nth-child(n + 2) {
   color: var(--primary-text-color);
-  margin-top: 9px;
+  display: block;
+  padding-top: 9px;
 }
 .footer-section {
   padding-top: 60px;
@@ -270,6 +280,7 @@ footer .studio {
   border: 0px;
   min-width: 73px;
   text-align: center;
+  background-color: var(--background-color-insight);
 }
 .button:hover,
 .button:focus {
@@ -286,6 +297,8 @@ footer .studio {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .portfolio-type {
   color: var(--paragraph-text-color);
@@ -293,12 +306,14 @@ footer .studio {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+  margin-top: 4px;
+  margin-bottom: 0;
 }
 .buttons-list {
   display: flex;
   justify-content: center;
   margin-top: 0;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .buttons-list .item:not(:last-child) {
   margin-right: 8px;
@@ -306,9 +321,8 @@ footer .studio {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -316,10 +330,14 @@ footer .studio {
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
+  border: 1px solid #eeeeee;
 }
 .portfolio-list .item:nth-child(3n) {
   margin-right: 0;
 }
 .portfolio-list .item:nth-last-child(-n + 3) {
   margin-bottom: 0;
+}
+.portfolio-list .description {
+  padding: 20px 24px;
 }
