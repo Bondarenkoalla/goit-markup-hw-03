@@ -136,6 +136,7 @@ header {
 
 .qualities-list {
   display: flex;
+  margin-top: 0;
 }
 .qualities-list .item {
   width: 270px;
@@ -152,6 +153,7 @@ header {
 
   text-transform: uppercase;
   margin-bottom: 0;
+  margin-top: 0;
 }
 .quality-description {
   color: var(--paragraph-text-color);
@@ -191,6 +193,7 @@ header {
 .member-list {
   display: flex;
   margin-bottom: 0;
+  margin-top: 0;
 }
 .member-list .item:not(:last-child) {
   margin-right: 30px;
@@ -224,7 +227,7 @@ header {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  margin-top: 10px;
+  margin-top: 0;
   margin-bottom: 0;
   text-align: center;
 }
@@ -232,7 +235,7 @@ header {
   background-color: var(--white-color);
 }
 .our-team .description {
-  padding: 30px 68px;
+  padding: 30px 50px;
 }
 /* footer */
 footer {
@@ -254,7 +257,7 @@ footer .studio {
 .address .item:nth-child(n + 2) {
   color: var(--primary-text-color);
   display: block;
-  padding-top: 9px;
+  margin-top: 9px;
 }
 .footer-section {
   padding-top: 60px;
